@@ -1,7 +1,7 @@
 
 Asset Analyzer
 
-A high-performance quantitative financial analysis web application built to process market data, compute risk metrics, and maintain local data persistence.
+A high-performance financial analysis web application built to process market data, compute risk metrics, and maintain local data persistence.
 
 Features
 
