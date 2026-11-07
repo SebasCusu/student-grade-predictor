@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 
-from ns import Model
+from model import Model
 
 # =====================================
 # PAGE CONFIG
