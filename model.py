@@ -7,7 +7,7 @@ import pandas as pd
 
 class Model:
 
-    def __init__(self, dataset='Student_Performace.csv', test_size=0.2, random_state=42):
+    def __init__(self, dataset='Student_Performance.csv', test_size=0.2, random_state=42):
 
         # Store the dataset and configuration parameters
         self.dataset = dataset
