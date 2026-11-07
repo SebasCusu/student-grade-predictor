@@ -1,34 +1,41 @@
 
-Asset Analyzer
+Student Performance Predictor
 
-A  financial analysis web application built to process market data, compute risk metrics, and maintain local data persistence.
+A Machine Learning project that predicts student academic performance using Linear Regression.
 
 Features
+Predicts student performance based on study hours, previous scores, and sleep hours.
+Trains a Linear Regression model using Scikit-learn.
+Splits data into training and testing sets.
+Evaluates model performance using MAE and R² Score.
+Provides an interactive interface using Streamlit.
+Technologies
+Python
+Pandas
+Scikit-learn
+Streamlit
+Installation
 
-• Data Retrieval: Integrated with Yahoo Finance API to pull historical closing prices.
-• Vectorized Engine: Utilizes NumPy for high-speed mathematical computations.
-• Statistical Analytics: Computes maximum, minimum, average, and annualized volatility.
-• Data Persistence: Structures storage and logs analytical history using SQLite3.
-• Modern Interface: Powered by Streamlit with asynchronous progress trackers.
-
-Tech Stack
-
-• Python
-• SQLite3
-• NumPy
-• yfinance API
-• Streamlit
-
-Core Modularity
-
-1. download_data: Downloads and flattens market data frames into continuous raw arrays.
-2. calculate_statistics: Executes matrix mathematical operations via NumPy vectorization.
-3. insert_data: Maps and saves variables into the relational SQLite3 schema.
-
-Installation and Execution
+Clone the repository:
 
 bash
-git clone https://github.com
-cd streamlit-asset-anlyzer
+git clone https://github.com/SebasCusu/student-grade-predictor.git
+cd student-grade-predictor
+
+
+Install dependencies:
+
+bash
 pip install -r requirements.txt
+
+
+Run the application:
+
+bash
 streamlit run app.py
+
+Author
+
+SebasCusu
+
+GitHub Profile
