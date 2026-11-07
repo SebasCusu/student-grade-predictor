@@ -128,7 +128,7 @@ div.stButton > button:hover {
 def load_model():
 
     model = Model(
-        dataset="Student_Performace.csv",
+        dataset='Student_Performance.csv',
         test_size=0.2,
         random_state=42
     )
